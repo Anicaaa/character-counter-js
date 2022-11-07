@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: lightblue;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: rgb(74, 156, 207);
+    width: 500px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.textarea {
+    resize: none;
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 2px darkgray;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+
+.counter-container p {
+    font-size: 22px;
+}
+
+.total-counter, .remaining-counter {
+    color: red;
+    font-size: 30px;
+}
