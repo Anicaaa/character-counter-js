@@ -42,6 +42,6 @@ h2 {
 }
 
 .total-counter, .remaining-counter {
-    color: red;
+    color: rgb(255, 247, 0);
     font-size: 30px;
 }
